@@ -1,45 +1,45 @@
 import statistics
 
 #LEVEL 1
-# lst = []
-# lst1 = ["1","2","3","4","5"]
-# print(lst1[0]) #first item
-# print(lst1[0::2]) #first, middle, last item
+lst = []
+lst1 = ["1","2","3","4","5"]
+print(lst1[0]) #first item
+print(lst1[0::2]) #first, middle, last item
 
-# mixed_data_types=["Svrtlhm", "16", "160cm", "Single", "Pare, Kediri"]
-# it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
-# print(mixed_data_types)
-# print(it_companies)
-# print(len(it_companies))
-# print(it_companies[0::3])
-# it_companies[2] = "Svar"
-# print(it_companies)
-# it_companies.append("Mikrosof")
-# it_companies.insert(4, "MiHoYo")
-# it_companies[0] = "FACEBOOK"
-# rsl = "#, ".join(it_companies)
-# print(rsl)
-# exist = 'Google' in it_companies
-# sorter = it_companies.sort()
-# sorterrev = it_companies.sort(reverse=True)
-# slicefirst = it_companies[3:]
-# print(slicefirst)
-# slicelast = it_companies[:5]
-# print(slicelast)
-# del it_companies[0]
-# print(it_companies)
-# del it_companies[4]
-# print(it_companies)
-# del it_companies[6]
-# print(it_companies)
-# del it_companies
+mixed_data_types=["Svrtlhm", "16", "160cm", "Single", "Pare, Kediri"]
+it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
+print(mixed_data_types)
+print(it_companies)
+print(len(it_companies))
+print(it_companies[0::3])
+it_companies[2] = "Svar"
+print(it_companies)
+it_companies.append("Mikrosof")
+it_companies.insert(4, "MiHoYo")
+it_companies[0] = "FACEBOOK"
+rsl = "#, ".join(it_companies)
+print(rsl)
+exist = 'Google' in it_companies
+sorter = it_companies.sort()
+sorterrev = it_companies.sort(reverse=True)
+slicefirst = it_companies[3:]
+print(slicefirst)
+slicelast = it_companies[:5]
+print(slicelast)
+del it_companies[0]
+print(it_companies)
+del it_companies[4]
+print(it_companies)
+del it_companies[6]
+print(it_companies)
+del it_companies
 
 
-# front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-# back_end = ['Node','Express', 'MongoDB']
-# copy = " ".join(front_end+back_end)
-# full_stack = copy
-# print(full_stack)
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+copy = " ".join(front_end+back_end)
+full_stack = copy
+print(full_stack)
 
 #LEVEL 2
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
